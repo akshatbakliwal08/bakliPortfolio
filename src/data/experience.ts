@@ -2,35 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Front-end Developer",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "YourBeat Inc. / VotreRythme Inc.",
+      href: "https://www.yourbeat.ca/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
+    date: "Jul 2024 - Present",
+    location: "Remote",
     description: "Reactjs and Nextjs app development",
   },
   {
-    title: "Engineering Trainee",
+    title: "Software Development Intern",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Auto BIM Route AI",
+      href: "https://autobimroute.com/",
     },
-    date: "July 2023 - Sep 2023",
+    date: "Jun 2023 - May 2024",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Led the UI transition to WPF with OpenGL and OpenTK, developed an AI bot for Outlook using Node.js and WPF, optimized development by 70% through CI/CD pipelines with GitHub Actions, and collaborated with cross-functional teams to improve system performance based on user feedback.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Server Side Assitant",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Covetus",
+      href: "https://www.covetus.com/",
     },
-    date: "Winter - 2022",
+    date: "Feb 2021 - Mar 2022",
     location: "Remote",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Led the development of a real-time inventory data retrieval application using NodeJS and ExpressJS with 99% accuracy, collaborated with the back-end team using Agile methodologies to improve API integration and database scalability, and ensured high-quality software through code reviews and design discussions.",
   },
 ];
