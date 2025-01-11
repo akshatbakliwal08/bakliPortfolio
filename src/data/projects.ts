@@ -5,9 +5,9 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Weather Application",
+    title: "Visualization of Software Metrics",
     href: "/projects",
-    tags: ["Nodejs", "Expressjs", "MapBox API"],
+    tags: ["Java", "JavaFX", "GitLabs"],
     image: {
       LIGHT: "/images/projects/jsontreeLight.webp",
       DARK: "/images/projects/jsontreeDark.webp",
@@ -15,7 +15,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Task Manager API",
+    title: "Task Manager",
     href: "/projects",
     tags: ["Nodejs", "MongoDB", "REST-API", "Mongoose"],
     image: {
@@ -27,19 +27,21 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Weather Application",
+    name: "Visualization of Software Metrics",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
       "/images/projects/jsontreeLight.webp",
       "/images/projects/jsontreeDark.webp",
     ],
     description:
-      "Developed a scalable application using NodeJS to gather real-time meteorological data, ensuring high accuracy and user satisfaction.",
-    sourceCodeHref: "https://github.com/akshatbakliwal08/weather-website",
-    liveWebsiteHref: "https://github.com/akshatbakliwal08/weather-website",
+      "Developed a JavaFX application to visualize key project metrics such as Burndown, Task Churn, and Defect Density through dynamic graphs integrated with the Taiga API.",
+    sourceCodeHref:
+      "https://github.com/pranawwwww/SER516-Team-Louisville/tree/main",
+    liveWebsiteHref:
+      "https://github.com/pranawwwww/SER516-Team-Louisville/tree/main",
   },
   {
-    name: "ask Manager API",
+    name: "Task Manager",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       "/images/projects/kanbanLight.webp",

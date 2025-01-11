@@ -3,7 +3,6 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -15,7 +14,6 @@ import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 // Languages
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
@@ -52,10 +50,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "CSS",
         icon: CsssSvg,
-      },
-      {
-        name: "SASS",
-        icon: SassSvg,
       },
       {
         name: "Javascript",
@@ -130,10 +124,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Socket.io",
         icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
       },
     ],
   },
