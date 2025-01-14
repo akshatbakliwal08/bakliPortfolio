@@ -64,7 +64,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              San Francisco, USA.
             </span>
           </FadeRight>
         </AnimatePresence>
