@@ -12,7 +12,7 @@ export const siteMetadata = {
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
-  email: "amitchauhan263871@gmail.com",
+  email: "abakliw1@asu.edu",
   github: "https://github.com/akshatbakliwal08",
   linkedin: "https://www.linkedin.com/in/akshat-bakliwal/",
   locale: "en-US",
