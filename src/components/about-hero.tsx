@@ -6,6 +6,8 @@ import { AnimatePresence } from "framer-motion";
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
 import heroProfileImg from "@/public/images/heroProfile.png";
+import { Download } from "lucide-react";
+import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function AboutHero() {
   return (
@@ -48,6 +50,18 @@ export default function AboutHero() {
               and web development.
             </p>
           </FadeUp>
+          {/* Download Resume Button */}
+          <FadeRight key="resume-download" duration={0.6} delay={0.6}>
+            <div className="mt-8 flex justify-center lg:justify-start">
+              <a
+                href={siteMetadata.resume} // Ensure the resume file is placed in the public folder
+                download="Akshat_Bakliwal_Resume.pdf"
+                className="flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-lg font-medium text-white transition-all duration-300 hover:bg-opacity-80"
+              >
+                <Download className="h-5 w-5" /> Download Resume
+              </a>
+            </div>
+          </FadeRight>
           <FadeRight
             key="hero-location"
             duration={0.6}
@@ -58,7 +72,7 @@ export default function AboutHero() {
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
                 alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
+                src="https://flagcdn.com/us.svg"
                 width={15}
                 height={15}
               />
