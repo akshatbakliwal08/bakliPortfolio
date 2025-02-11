@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 
 import MenuLogo from "@/components/utility/menu-button";
-import ThemeSwitch from "@/components/utility/theme-switch";
+// import ThemeSwitch from "@/components/utility/theme-switch";
 import AnimatedLogo from "@/animation/animated-logo";
 import MobileMenu from "@/components/utility/mobile-menu";
 import { classNames } from "@/utility/classNames";
@@ -80,7 +80,7 @@ export default function Navbar(props: NavbarProps) {
               );
             })}
           </ul>
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
         </nav>
         <AnimatePresence>
           <MenuLogo open={isModalOpen} toggle={toggleModal} />
