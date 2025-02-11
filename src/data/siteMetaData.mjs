@@ -10,7 +10,7 @@ export const siteMetadata = {
   siteRepo: "https://github.com/akshatbakliwal08/bakliPortfolio",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
-  resume:"/resume/AkshatBakliwalResumeSE.pdf",
+  resume:"/resume/AkshatBakliwalResume_Final.pdf",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
   email: "abakliw1@asu.edu",
