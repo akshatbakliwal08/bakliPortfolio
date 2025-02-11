@@ -37,12 +37,8 @@ export default function MyJourney() {
           },
         ]}
       />
-      <div className="mt-0">
-        <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
-        <ExperienceShowcaseList title="Education" details={EDUCATION} />
-      </div>
-      {/* <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
-      <ExperienceShowcaseList title="Education" details={EDUCATION} /> */}
+      <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
+      <ExperienceShowcaseList title="Education" details={EDUCATION} />
     </>
   );
 }

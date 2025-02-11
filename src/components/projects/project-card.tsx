@@ -8,8 +8,6 @@ export interface ProjectCardProps {
   favicon: string;
   imageUrl: string[];
   description: string;
-  // sourceCodeHref: string;
-  // liveWebsiteHref?: string;
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
