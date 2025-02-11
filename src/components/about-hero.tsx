@@ -57,13 +57,13 @@ export default function AboutHero() {
               <a
                 href={siteMetadata.resume} // Ensure the resume file is placed in the public folder
                 download="Akshat_Bakliwal_Resume.pdf"
-                className="flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-lg font-medium text-white transition-all duration-300 hover:bg-opacity-80"
+                className="flex items-center gap-2 rounded-lg border-2 border-accent px-5 py-3 text-lg font-medium text-accent transition-all duration-300 hover:bg-accent hover:text-white"
               >
                 <Download className="h-5 w-5" /> Download Resume
               </a>
             </div>
           </FadeRight>
-          <FadeRight
+          {/* <FadeRight
             key="hero-location"
             duration={0.6}
             delay={0.8}
@@ -81,7 +81,7 @@ export default function AboutHero() {
             <span className="text-lg font-medium text-foreground">
               San Francisco, USA.
             </span>
-          </FadeRight>
+          </FadeRight> */}
         </AnimatePresence>
       </div>
     </div>
