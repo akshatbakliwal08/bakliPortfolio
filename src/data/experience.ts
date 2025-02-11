@@ -10,7 +10,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "Jul 2024 - Present",
     location: "Remote",
     description:
-      "•	Collaborated with cross-functional teams in Agile meetings to align project tasks, resolve technical issues, and ensure compliance with design and functionality requirements, enhancing team coordination and software delivery.\n•	Developed and integrated new software components, implemented UI updates, conducted debugging sessions, and optimized code across platforms using JavaScript, NodeJS, and ReactJS, resulting in improved application performance and user experience.\n•	Prepared comprehensive progress reports, documented code reviews, and created technical documentation to support task management and bug resolution, ensuring effective communication and transparency among developers and stakeholders. ",
+      "•  Collaborated with cross-functional teams in Agile meetings to align project tasks, resolve technical issues, and ensure compliance with design and functionality requirements, enhancing team coordination and software delivery.\n•   Developed and integrated new software components, implemented UI updates, conducted debugging sessions, and optimized code across platforms using JavaScript, NodeJS, and ReactJS, resulting in improved application performance and user experience.\n•	Prepared comprehensive progress reports, documented code reviews, and created technical documentation to support task management and bug resolution, ensuring effective communication and transparency among developers and stakeholders. ",
   },
   {
     title: "Software Development Intern",
@@ -18,7 +18,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Auto BIM Route AI",
       href: "https://autobimroute.com/",
     },
-    date: "Jun 2023 - May 2024",
+    date: "Jan 2024 - May 2024",
     location: "Remote",
     description:
       "•	Developed and shipped the ABR AI Bot for Outlook, an add-in that streamlined meeting management, integrating automated summary generation and instant meeting access using Node.js and WPF.\n•	Led the UI transition from Windows Forms to Windows Presentation Foundation (WPF), incorporating OpenGL and OpenTK libraries to improve user experience and performance.\n•	Established CI/CD pipelines with GitHub Actions to optimize development processes by 70%, ensuring high-quality pull requests and minimal defects.\n•	Collaborated with cross-functional teams, gathering user requirements and incorporating feedback to enhance system performance.",
@@ -29,9 +29,20 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Covetus",
       href: "https://www.covetus.com/",
     },
-    date: "Feb 2021 - Mar 2022",
+    date: "Dec 2021 - Jul 2022",
     location: "Remote",
     description:
       "•	Led the development of a real-time inventory data retrieval application for IGM Corps USA using NodeJS and ExpressJS, achieving 99% accuracy and timely project completion.\n•	Collaborated with the back-end team using Agile methodologies, enhancing API integrations and scalable database design, contributing to overall operational efficiency.\n•	Engaged in code reviews and design discussions to ensure high-quality software development aligned with project specifications.",
+  },
+  {
+    title: "Software Developer",
+    organisation: {
+      name: "Pharmadocx Consultants",
+      href: "https://pharmadocx.com/",
+    },
+    date: "Mar 2020 - Aug 2021",
+    location: "Remote",
+    description:
+      "•	Developed and optimized a parallelized DES decryption algorithm using OpenMP, significantly improving decryption speed and performance for security analysis. Conducted extensive benchmarking to evaluate encryption vulnerabilities and enhance cryptographic security.\n•	Implemented Brute Force and Dictionary-based attacks to analyze encryption strength, enabling a structured approach to password recovery and security assessments. Designed a custom dictionary-based approach to improve password-cracking efficiency.\n•	Optimized C++ implementation and integrated CMake for automated builds, streamlining project deployment and improving maintainability for future security research.",
   },
 ];

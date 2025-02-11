@@ -35,9 +35,10 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              I bring ideas to life through code. Whether developing a website
+              or creating a digital product, I approach every project with a
+              dedication to design precision and a focus on delivering
+              exceptional user experiences.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>

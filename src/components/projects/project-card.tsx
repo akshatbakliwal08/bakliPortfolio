@@ -1,18 +1,15 @@
 import Image from "next/image";
 
 import { motion } from "framer-motion";
-import { FiExternalLink } from "react-icons/fi";
 
 import Corosel from "@/components/utility/corosel";
-import { GithubIcon } from "@/components/icons";
-
 export interface ProjectCardProps {
   name: string;
   favicon: string;
   imageUrl: string[];
   description: string;
-  sourceCodeHref: string;
-  liveWebsiteHref?: string;
+  // sourceCodeHref: string;
+  // liveWebsiteHref?: string;
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
@@ -36,24 +33,6 @@ export default function ProjectCard(props: ProjectCardProps) {
         </div>
         <div className="mt-3">
           <p className="text-xs md:text-sm">{props.description}</p>
-        </div>
-        <div className="mt-6 flex items-center justify-end gap-6">
-          <a
-            href={props.sourceCodeHref}
-            target="_blank"
-            className="flex items-center gap-1 text-xs underline md:text-sm"
-          >
-            <GithubIcon className="h-5 w-5" /> Source code
-          </a>
-          {props.liveWebsiteHref && (
-            <a
-              href={props.liveWebsiteHref}
-              target="_blank"
-              className="flex items-center gap-1 text-xs underline md:text-sm"
-            >
-              <FiExternalLink className="h-5 w-5" /> Live
-            </a>
-          )}
         </div>
       </div>
     </motion.div>

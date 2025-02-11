@@ -78,7 +78,12 @@ export default function ExperienceShowcaseListItem(
           {props.date} | {props.location}
         </span>
         <p className="text-sm font-medium text-muted-foreground xs:text-base">
-          {props.description}
+          {props.description.split("\n").map((line, index) => (
+            <span key={index}>
+              {line}
+              <br />
+            </span>
+          ))}
         </p>
       </motion.div>
     </li>
